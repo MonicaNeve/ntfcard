@@ -23,7 +23,7 @@
   body {
       background-color: var(--cor2darkblue);
       max-width: 100vh;
-      padding: 25px;
+      padding: 55px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -191,5 +191,6 @@
           justify-content: center;
           flex-direction: column;
           height: 100vh;
+          padding: 35px;
       }
   }
