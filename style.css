@@ -22,6 +22,7 @@
   }
   body {
       background-color: var(--cor2darkblue);
+      width: 100%;
       max-width: 100vh;
       padding: 55px;
       display: flex;
@@ -191,6 +192,6 @@
           justify-content: center;
           flex-direction: column;
           height: 100vh;
-          padding: 35px;
+          padding: 4px;
       }
   }
