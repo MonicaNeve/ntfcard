@@ -20,16 +20,16 @@
   a {
       text-decoration: none;
   }
-
   body {
       background-color: var(--cor2darkblue);
-      min-width: 100vh;
+      max-width: 100vh;
       padding: 25px;
       display: flex;
       justify-content: center;
       align-items: center;
       font-family: 'Outfit', sans-serif;
       font-size: 18px;
+      margin: auto;
   }
 
   .container_main {
@@ -39,6 +39,8 @@
       border-radius: 15px;
       background-color: var(--cor2-1darkblue);
       box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.40);
+      flex-direction: column;
+      display: flex;
   }
 
   .img-equilibrium img {
@@ -178,12 +180,11 @@
   }
 
   /* Descktop */
-  @media (min-width: 600px) {
+  @media (max-width: 600px) {
       .container {
           width: 325px;
           margin: 0 auto;
       }
-
       body {
           display: flex;
           align-items: center;
