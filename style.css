@@ -23,13 +23,12 @@
   body {
       background-color: var(--cor2darkblue);
       width: 100%;
-      padding: 40px;
+      padding: 80px;
       display: flex;
       justify-content: center;
-      align-items: center;
+      align-content: center;
       font-family: 'Outfit', sans-serif;
       font-size: 18px;
-      margin: auto;
   }
 
   .container_main {
