@@ -23,24 +23,26 @@
   body {
       background-color: var(--cor2darkblue);
       width: 100%;
-      padding: 80px;
-      display: flex;
-      justify-content: center;
-      align-content: center;
+      padding: 70px;
       font-family: 'Outfit', sans-serif;
       font-size: 18px;
+      margin: 0 auto;
+      justify-content: center;
+      align-items: center;
   }
 
   .container_main {
-      max-width: 370px;
+      max-width: 317px;
+      min-height: 541px;
       margin: 0 auto;
       padding: 24px;
       border-radius: 15px;
       background-color: var(--cor2-1darkblue);
       box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.40);
       flex-direction: column;
-      display: flex;
-  }
+      justify-content: center;
+      align-items: center;
+   }
 
   .img-equilibrium img {
       position: relative;
@@ -175,7 +177,7 @@
   }
 
   .attribution a {
-      color: var(--corfooter)
+      color: var(--corfooter);
   }
 
   /* Descktop */
